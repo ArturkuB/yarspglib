@@ -49,8 +49,8 @@ python -m yarspglib -h
 - `-h`, `--help`: Display the help message.
 - `-a {serialize,parse}`, `--action {serialize,parse}`: Choose the action to perform. Options are `serialize` for serializing RDF to YARS-PG or `parse` for parsing YARS-PG to RDF.
 - `-t {wholefile,sections}`, `--type {wholefile,sections}`: Choose the type of operation. Options are `wholefile` for processing entire files or `sections` for processing nodes and edges separately.
-- `-i INPUT`, `--input INPUT`: Specify the input file. Required for both serialization and parsing actions.
-- `-o OUTPUT`, `--output OUTPUT`: Specify the output file. Required for both serialization and parsing actions.
+- `-i INPUT`, `--input INPUT`: Specify the input file. Optional for both serialization and parsing actions.
+- `-o OUTPUT`, `--output OUTPUT`: Specify the output file. Optional for both serialization and parsing actions.
 - `--output-nodes OUTPUT_NODES`: Specify the output file for nodes when serializing sections. Required if `--type sections` is chosen.
 - `--output-edges OUTPUT_EDGES`: Specify the output file for edges when serializing sections. Required if `--type sections` is chosen.
 - `--input-nodes INPUT_NODES`: Specify the input file for nodes when parsing sections. Required if `--type sections` is chosen.
